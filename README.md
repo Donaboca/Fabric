@@ -1,4 +1,4 @@
-# Fabric - käytettyjen tiedostojen ja kuvauksen kera Githubissa, koska ei ollut mahdollisuutta asettaa Git-integraatiota käytössäni olleesta työtilasta.
+# Fabric - projektitiedostojen ja kuvauksen kera Githubissa, koska ei ollut mahdollisuutta asettaa Git-integraatiota käytössäni olleesta työtilasta.
 ![image](https://github.com/user-attachments/assets/0e9a0e43-583d-4792-9843-8fedd8d03b54)
 
 Dataputki datan hakuun Lahden avoimesta datasta. Datana kevyen liikenteen mittauspisteiden dataa. Datasta poimitaan kevyenliikenteen kulkijatyypit kävelijä ja pyöräilijä. Data tallennetaan Lakehouseen parquet-tiedostoiksi / luetaan parquet-tiedostoista, käsitellään tietomallinnuksen mukaiseksi (tähtimalli) ja sitten tallennetaan valmiiksi jalostettu data delta-tauluihin. Viikkoajoissa, riippuen taulusta, lisätään uudet rivit tai päivitetään olemassa olevien rivien kulkijamääriä. Taustalla on Power BI -raportointi, joka näyttää ajantasaista tietoja - deltataulut ovat nk. direct modessa ja erikseen luodut päivämäärä- ja eräs aputaulu ovat import modessa. Raportoinnissa on hyödynnetty DAX-kieltä.
