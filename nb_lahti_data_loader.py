@@ -26,7 +26,6 @@ hakutyyppi = 2
 
 
 # #### Kirjastojen tuonnit, url ja headerit sekä haku
-# - Kehitykseen: jos yhteys epäonnistuu, yritetään uudestaan x min kuluttua.
 
 # In[2]:
 
@@ -154,8 +153,6 @@ def hakupaivat(hakutyyppi):
 # #### Funktio kavijamaarat
 # - Lisätään data df:ään kävijämäärät, joko kaikki tai viikkotason määrä riippuen hakutyypistä.
 # 
-# 
-# Kehitykseen: Varmistus, ettei kaadu timeoutiin. Joko pipelinen puolella, jos mahdollista tai sitten tässä nb:ssä - kumpi paras käytäntö?
 
 # In[9]:
 
