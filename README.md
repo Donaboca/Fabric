@@ -13,4 +13,5 @@ Dataputki datan hakuun Lahden avoimesta datasta. Datana kevyen liikenteen mittau
 ## Power BI
 - Raportit päivittyvät automaattisesti. Data laken delta-tauluihin on yhteys DirectQuery -tyyppisesti (itse muodostettuihin tauluihin, kuten Measure Tableen Import-tyyppisesti).
 - Exporttasin Excel-muotoisen raportin, josta löytyvät kaikki mittarit.
-- Power BI -raportin kuvakaappaukset näkee repositoryn <a href="https://github.com/Donaboca/PowerBI" target="_blank">PowerBI</a> read me -osiosta.
+- Power BI -raportin kuvakaappaukset näkee repositoryn https://github.com/Donaboca/PowerBI read me -osiosta.
+
